@@ -4,6 +4,9 @@
 	border: 0px;
 	outline: none;
 }
+body{
+	background-color: #20282C !important;
+}
 /*=====================================indnex.html======================================*/
 /*=========================NAVIGATION======================*/
 
@@ -11,15 +14,15 @@ nav{
 	box-sizing: border-box;
 }
 .logo{
-	margin:5px 10px;
+	margin:7px 10px;
 }
 .logo i{
-	font-size: 30px;
+	font-size: 25px;
 }
 .logo p{
 	display: inline-block; 
 	font-family: 'Righteous', cursive;
-	font-size: 40px;
+	font-size: 25px;
 	margin-left: 10px;
 	box-sizing: border-box;
 }
@@ -123,12 +126,13 @@ header{
    }
 .infoText{
 	height: 400px;
-	font-size: 40px;
-	font-family: 'Courgette', cursive;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 130px;
+	/*font-family: 'Courgette', cursive;*/
 	background-color: #20282C;
 	color: #D7D7D7;
 	text-align: center;
-	padding-top: 60px;
 	transition: .5s;
 }
 .infoText2{
@@ -348,7 +352,8 @@ header{
 	color: white;
 	text-align: center;
 	font-size: 50px;
-	font-family: 'Bitter', serif;
+	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Bitter', serif;*/
 	transition: .5s;
 }
 .aboutCompanyP{
